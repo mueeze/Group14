@@ -17,7 +17,7 @@ Week 1: Due Jan 25th
 
 ## Process used in preparing data exploration in python
 
-I installed various libraries, that included the following
+I installed various libraries, that included the following: See file [credit_card_fraud_file]()
 import pandas as pd 
 import numpy as np
 import matplotlib
@@ -55,3 +55,5 @@ These libraries were installed to run split testing and predictive modelling in 
 Checking and cleaning the credit card transaction data, I used the .loc method on the dataframe credit_card_fraud_df to obtain the credit card transactions time density against fraud and non-fraud. Which was indicated through class 0 and 1. 
 See image below
 ![](https://github.com/mueeze/Group14/blob/Jared-Murray/Credit%20Card%20Transactions%20Time%20Density%20Plot.png)
+
+I created a new credit card dataframe, new_credit_card_fraud_df, that holds and renames the columns 'Hour', 'Class', 'Min', 'Max'. 'Transactions', 'Sum', 'Mean'. 
