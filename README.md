@@ -29,3 +29,5 @@ I created a new credit card dataframe, new_credit_card_fraud_df, that holds and 
 
 To identify the fraudulent transactions based on the amount, I stored the values in variable fraud and then plot the fraudulent transactions based on time. See Scatter plot below.
 ![](https://github.com/mueeze/Group14/blob/Jared-Murray/Amount%20of%20fraudulent%20transactions.png)
+
+Please note that this project is a continuous project over the next 4 weeks. 
