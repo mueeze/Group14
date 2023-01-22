@@ -7,6 +7,7 @@ We, as a group have chosen the credit card fraud detection predictive models, be
 Week 1: Due Jan 25th
 
 |Deliverables:|	Responsible|	Date|
+| ----------------------- | ---------------------------------------- |--------------------------|
 |README|	Everyone will add their notes below and Amber will complete the final edit|	Amber: Friday Jan 20th|
 |ER Database	|Amber	|Friday Jan 20th|
 |Machine Learning model|	Amber, Josna, Halango	|Amber: Sat Jan 21st,Halango: Jan 21st and 22nd, Josna :Jan 22-23 |
