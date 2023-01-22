@@ -26,3 +26,6 @@ See image below
 ![](https://github.com/mueeze/Group14/blob/Jared-Murray/Credit%20Card%20Transactions%20Time%20Density%20Plot.png)
 
 I created a new credit card dataframe, new_credit_card_fraud_df, that holds and renames the columns 'Hour', 'Class', 'Min', 'Max'. 'Transactions', 'Sum', 'Mean'. Note, in order to clean the data I described the data, dtyped the data and dropped the null values. 
+
+To identify the fraudulent transactions based on the amount, I stored the values in variable fraud and then plot the fraudulent transactions based on time. See Scatter plot below.
+![]()
