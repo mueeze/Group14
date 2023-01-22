@@ -52,4 +52,6 @@ import tensorflow as tf
 
 These libraries were installed to run split testing and predictive modelling in machine learning. 
 
-
+Checking and cleaning the credit card transaction data, I used the .loc method on the dataframe credit_card_fraud_df to obtain the credit card transactions time density against fraud and non-fraud. Which was indicated through class 0 and 1. 
+See image below
+![]()
