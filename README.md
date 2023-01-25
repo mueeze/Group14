@@ -1,5 +1,5 @@
 # Group14
-# Group14
+
 ## Overview
 ---
 Our group has chosen a dataset about heart disease predictive models. In our selection process we were looking for a large enough dataset to would be accurate and precise. Jared's role in the group involves data exploration. See table below outlining the respective responsibilities of each group member. Jared performs the Data Exploration on the dataset in Python. 
@@ -37,7 +37,7 @@ In our dashboard we want to depict a story about the variables that contribute m
   - Is there a difference between male and female heart disease development
 
 
-## Process used in preparing data exploration in python
+## Preparing data for exploration in python
 
 Jared installed various libraries, that included the following: See file [credit_card_fraud_file](https://github.com/mueeze/Group14/blob/Jared-Murray/Credit_card_fraud.ipynb)
 
@@ -47,7 +47,7 @@ Checking and cleaning the credit card transaction data, I used the .loc method o
 See image below
 ![](https://github.com/mueeze/Group14/blob/Jared-Murray/Credit%20Card%20Transactions%20Time%20Density%20Plot.png)
 
-I created a new credit card dataframe, new_credit_card_fraud_df, that holds and renames the columns 'Hour', 'Class', 'Min', 'Max'. 'Transactions', 'Sum', 'Mean'. Note, in order to clean the data I described the data, dtyped the data and dropped the null values. 
+Jared created a new credit card dataframe, new_credit_card_fraud_df, that holds and renames the columns 'Hour', 'Class', 'Min', 'Max'. 'Transactions', 'Sum', 'Mean'. Note, in order to clean the data I described the data, dtyped the data and dropped the null values. 
 
 To identify the fraudulent transactions based on the amount, I stored the values in variable fraud and then plot the fraudulent transactions based on time. See Scatter plot below.
 ![](https://github.com/mueeze/Group14/blob/Jared-Murray/Amount%20of%20fraudulent%20transactions.png)
