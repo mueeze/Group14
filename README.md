@@ -40,31 +40,23 @@ Data cleaning:
 
 The data was cleaned first in the excel file by dropping any null values that were presented as “NA” in each column. The “Education” column was dropped because it was not relevant to the output. Next, the mean value for column “cigsPerDay” was substituted into any null values in the column. 
 
-After 10 years, 644 participants developed heart disease and 3594 participants did not develop heart disease. 		
+After 10 years, 644 participants developed heart disease and 3594 participants did not develop heart disease. 	
+
+![Heart disease](https://user-images.githubusercontent.com/112285856/214711799-8cdcc37d-3cb2-488c-8e44-2b8439147fc7.png)
+
 
 We stratified instances if heart disease by male and female, where 57.08% of males did not develop heart disease, compared to 42.92% of males who did:
+
+![Male and female](https://user-images.githubusercontent.com/112285856/214711625-ee3df70f-36de-46d2-8052-35d4c0848806.png)
 
 
 50% of participants who smoked developed heart disease after 10 years:
 
+![smoker](https://user-images.githubusercontent.com/112285856/214711606-328548de-60e8-40f6-b5de-8ac9d7c5ef1f.png)
+
 
 We also found that participants with hypertension had higher instances of heart disease:
 
+![Hypertension](https://user-images.githubusercontent.com/112285856/214711596-928be1ee-7b0d-4f18-ac16-70621fe07514.png)
 
 
-## Preparing data for exploration in python
-
-Jared installed various libraries, that included the following: See file [credit_card_fraud_file](https://github.com/mueeze/Group14/blob/Jared-Murray/Credit_card_fraud.ipynb)
-
-These libraries were installed to run split testing and predictive modelling in machine learning. 
-
-Checking and cleaning the credit card transaction data, I used the .loc method on the dataframe credit_card_fraud_df to obtain the credit card transactions time density against fraud and non-fraud. Which was indicated through class 0 and 1. 
-See image below
-![](https://github.com/mueeze/Group14/blob/Jared-Murray/Credit%20Card%20Transactions%20Time%20Density%20Plot.png)
-
-Jared created a new credit card dataframe, new_credit_card_fraud_df, that holds and renames the columns 'Hour', 'Class', 'Min', 'Max'. 'Transactions', 'Sum', 'Mean'. Note, in order to clean the data I described the data, dtyped the data and dropped the null values. 
-
-To identify the fraudulent transactions based on the amount, I stored the values in variable fraud and then plot the fraudulent transactions based on time. See Scatter plot below.
-![](https://github.com/mueeze/Group14/blob/Jared-Murray/Amount%20of%20fraudulent%20transactions.png)
-
-Please note that this project is a continuous project over the next 4 weeks. 
