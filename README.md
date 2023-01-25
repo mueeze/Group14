@@ -27,7 +27,7 @@ See image below
 
 I created a new heart disease dataframe, updated_heart_disease_df, at first as a csv file to save the cleaned data. It holds and renames the columns 'Male' to 'Gender'. Note, in order to clean the data I described the data, dtyped the data and dropped the null values, as well as the column 'education'. 
 
-To identify the fraudulent transactions based on the amount, I stored the values in variable fraud and then plot the fraudulent transactions based on time. See Scatter plot below.
+To identify the glucose intake per age, I stored the values in the variable blood_sugar_levels and then plotted the glucose intake based on age. See Scatter plot below.
 ![](https://github.com/mueeze/Group14/blob/Jared-Murray/Glucose%20intake%20per%20year.png)
 
 Please note that this project is a continuous project over the next 4 weeks. 
