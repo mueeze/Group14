@@ -17,7 +17,7 @@ Week 1: Due Jan 25th
 
 ## Process used in preparing data exploration in python
 
-I installed various libraries, that included the following: See file [credit_card_fraud_file](https://github.com/mueeze/Group14/blob/Jared-Murray/Credit_card_fraud.ipynb)
+I installed various libraries, that included the following: See file [card heart _file](https://github.com/mueeze/Group14/blob/Jared-Murray/Credit_card_fraud.ipynb)
 
 These libraries were installed to run split testing and predictive modelling in machine learning. 
 
