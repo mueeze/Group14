@@ -36,6 +36,21 @@ In our dashboard we want to depict a story about the variables that contribute m
   - Does education have any impact on the development of heart disease
   - Is there a difference between male and female heart disease development
 
+Data cleaning:
+
+The data was cleaned first in the excel file by dropping any null values that were presented as “NA” in each column. The “Education” column was dropped because it was not relevant to the output. Next, the mean value for column “cigsPerDay” was substituted into any null values in the column. 
+
+After 10 years, 644 participants developed heart disease and 3594 participants did not develop heart disease. 		
+
+We stratified instances if heart disease by male and female, where 57.08% of males did not develop heart disease, compared to 42.92% of males who did:
+
+
+50% of participants who smoked developed heart disease after 10 years:
+
+
+We also found that participants with hypertension had higher instances of heart disease:
+
+
 
 ## Preparing data for exploration in python
 
