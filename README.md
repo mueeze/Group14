@@ -2,7 +2,7 @@
 
 ## Overview
 ---
-Our group has chosen a dataset about heart disease predictive models. The goal of our selection process was to choose a dataset that was large enough produce accurate and precise predictions. 
+Our group has chosen a dataset about heart disease predictive models. The goal of our selection process was to choose a dataset that was large enough produce accurate and precise predictions. It is a complex dataset with values that needs to be trained, cleaned and split. 
 
 The dataset chosen from Kaggle describes a pool of 4000 participants, male and female of various ages and selected lifestyle characteristics that can be predictive of heart disease development after a 10 year period. 
  
@@ -26,6 +26,10 @@ Data cleaning:
 
 The data was cleaned first in the excel file by dropping any null values that were presented as “NA” in each column. The “Education” column was also dropped because it was not relevant to the output. Next, the mean value for column “cigsPerDay” was substituted into any null values in the column. 
 
+## Process used in preparing data exploration in python
+
+We installed various libraries, that included the following: See file [heart_disease](https://github.com/mueeze/Group14/blob/Jared-Murray/heart_disease.ipynb)
+
 After 10 years, 644 participants developed heart disease and 3594 participants did not develop heart disease. 	
 
 ![Heart disease](https://user-images.githubusercontent.com/112285856/214711799-8cdcc37d-3cb2-488c-8e44-2b8439147fc7.png)
@@ -44,6 +48,13 @@ We stratified instances if heart disease by male and female, where 57.08% of mal
 We also found that participants with hypertension had higher instances of heart disease:
 
 ![Hypertension](https://user-images.githubusercontent.com/112285856/214711596-928be1ee-7b0d-4f18-ac16-70621fe07514.png)
+
+These libraries were installed to run split testing and predictive modelling in machine learning. 
+
+While checking and cleaning the heart disease data, we used the .loc method on the updated_heart_disease_df to obtain the Heart Disease Rates by age and gender. Which was indicated through class 0 and 1. 
+See image below
+![](https://github.com/mueeze/Group14/blob/Jared-Murray/Heart%20Disease%20Rate%20Age%20and%20Gender%20Density%20Plot.png)
+
 
 
 See table below outlining the respective responsibilities of each group member:
