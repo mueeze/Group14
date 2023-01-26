@@ -8,7 +8,7 @@ The dataset chosen from Kaggle describes a pool of 4000 participants, male and f
  
 Some of the predictive variables we will explore are sex, ciggarette consumption, cholesterol levels, body mass index, and history of diabetes. The predicted output is whether the person develops coronary heart disease after 10 years: 1 indicating “yes”, 0 indicating “no”. 
 
-We were looking for a dataset with enough relevant input data that would allow us to create a linear regression model. We wanted a dataset that we could interpret easily that woudl clearly determine our output: heart disease development. 
+We were looking for a dataset with enough relevant input data that would allow us to create a linear regression model. We wanted a dataset that we could interpret easily that would clearly determine our output: heart disease development. 
 
 
 The goal of our regression model is to determine How accurately we can predict chances of Cardiac Heart Disease based on various demographic and pre-existing health factors (i.e. age, gender, blood pressure, BMI, cholesterol etc.)? 
