@@ -51,7 +51,7 @@ We also found that participants with hypertension had higher instances of heart 
 
 All the libraries were installed to run split testing and predictive modelling in machine learning. 
 
-While checking and cleaning the heart disease data, we used the .loc method on the updated_heart_disease_df to obtain the Heart Disease Rates by age and gender. Which was indicated through class 0 and 1. 
+While checking and cleaning the heart disease data, we used the .loc method on the updated_heart_disease_df to obtain the Heart Disease Rates by age and gender. Which was indicated through Male and Female. 
 See image below
 ![](https://github.com/mueeze/Group14/blob/Jared-Murray/Heart%20Disease%20Rate%20Age%20and%20Gender%20Density%20Plot.png)
 
