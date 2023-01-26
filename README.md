@@ -49,12 +49,16 @@ We also found that participants with hypertension had higher instances of heart 
 
 ![Hypertension](https://user-images.githubusercontent.com/112285856/214711596-928be1ee-7b0d-4f18-ac16-70621fe07514.png)
 
-These libraries were installed to run split testing and predictive modelling in machine learning. 
+All the libraries were installed to run split testing and predictive modelling in machine learning. 
 
 While checking and cleaning the heart disease data, we used the .loc method on the updated_heart_disease_df to obtain the Heart Disease Rates by age and gender. Which was indicated through class 0 and 1. 
 See image below
 ![](https://github.com/mueeze/Group14/blob/Jared-Murray/Heart%20Disease%20Rate%20Age%20and%20Gender%20Density%20Plot.png)
 
+A new heart disease dataframe was created, updated_heart_disease_df, at first as a csv file to save the cleaned data. It holds and renames the columns 'Male' to 'Gender'. Note, in order to clean the data, it was described, dtyped and it had dropped the null values, as well as the column 'education'.
+
+To identify the glucose intake per age, values were stored in the variable blood_sugar_levels and then plotted the glucose intake based on age. See Scatter plot below. 
+![](https://github.com/mueeze/Group14/blob/Jared-Murray/Glucose%20intake%20per%20year.png)
 
 
 See table below outlining the respective responsibilities of each group member:
