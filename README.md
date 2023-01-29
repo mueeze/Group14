@@ -17,6 +17,7 @@ We, as a group have chosen the Cardiac Heart Disease, because it is more applica
 ## Results
 ### Random Oversampling with SMOTE
 My approach to Random Oversampling with SMOTE addresses the imbalanced dataset value column, TenYearCHD in the dataframe, heart_disease_df, by oversampling the minority class. The simplest approach involves duplicating examples in the minority class, although these examples don’t add any new information to the model. Instead, new examples can be synthesized from the existing examples. This is a type of data augmentation for the minority class and is referred to as the Synthetic Minority Oversampling Technique, or SMOTE for short. See image below
+
 ![](https://github.com/mueeze/Group14/blob/Jared-Murray/ros.png)
 
 A confusion matrix was generated for resamp_y and y_pred. I then, plotted the original dataset versus the Oversampled Minority Class and then a More Balanced Data. 
@@ -25,12 +26,12 @@ A confusion matrix was generated for resamp_y and y_pred. I then, plotted the or
 -	The confusion matrix produces an array of 1960, 1139 and 246, 311. The datatype is an integer type. 
 -	The Imbalanced Classification Report Average/ Total: precision = 0.79, recall = 0.62, specificity = 0.57, f1-measure = 0.67, geometric mean = 0.59, index balanced accuracy= 0.35 and support =  3656. See Image Below 
 
--	![](https://github.com/mueeze/Group14/blob/Jared-Murray/icr.png)
+	![](https://github.com/mueeze/Group14/blob/Jared-Murray/icr.png)
 
 ### Random Forest Classifier
 The train_df dataframe pulls from updated_heart_disease.df using a random state of 525, a test size of 0.9 and shuffle = true. I initialized a randomforest classifier with n_jobs = 5, random_state=525, criterion='gini', n_estimators=100, verbose=False. This produces a result of RandomForestClassifier(n_jobs=5, random_state=525, verbose=False). A graph was plotted and to I got a ROC-AUC score = 0.618. 
 See Image Below 
--	![](https://github.com/mueeze/Group14/blob/Jared-Murray/RFC.png)
+	![](https://github.com/mueeze/Group14/blob/Jared-Murray/RFC.png)
 
 ### Support Vector Machine (SVM)
 TenYearCHD column was used to generate the categorical variable, TenYearCHD_cat. The datatype used in the categorical variable was an integer type. To create a OneHotEncoder instance, I fit and transform the OneHotEncoder into a new dataframe, encode_heart_disease_df. The model was split, trained and fitted to create a StandardScaler instance. I then, created an SVM model with a linear kernel. This produced a SVM model accuracy = 0.848.
