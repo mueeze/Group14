@@ -16,14 +16,15 @@ We, as a group have chosen the Cardiac Heart Disease, because it is more applica
 
 ## Results
 ### Random Oversampling with SMOTE
-My approach to Random Oversampling with SMOTE addresses the imbalanced dataset value column, TenYearCHD in the dataframe, heart_disease_df, by oversampling the minority class. The simplest approach involves duplicating examples in the minority class, although these examples don’t add any new information to the model. Instead, new examples can be synthesized from the existing examples. This is a type of data augmentation for the minority class and is referred to as the Synthetic Minority Oversampling Technique, or SMOTE for short.
+My approach to Random Oversampling with SMOTE addresses the imbalanced dataset value column, TenYearCHD in the dataframe, heart_disease_df, by oversampling the minority class. The simplest approach involves duplicating examples in the minority class, although these examples don’t add any new information to the model. Instead, new examples can be synthesized from the existing examples. This is a type of data augmentation for the minority class and is referred to as the Synthetic Minority Oversampling Technique, or SMOTE for short. See image below
+![](https://github.com/mueeze/Group14/blob/Jared-Murray/ros.png)
 
 A confusion matrix was generated for resamp_y and y_pred. I then, plotted the original dataset versus the Oversampled Minority Class and then a More Balanced Data. 
 -	The count of the resamp_y is 0: 3099, 1: 3099
 -	The balanced_accuracy_score for the y_pred is 0.5954051894889358
 -	The confusion matrix produces an array of 1960, 1139 and 246, 311. The datatype is an integer type. 
 -	The Imbalanced Classification Report Average/ Total: precision = 0.79, recall = 0.62, specificity = 0.57, f1-measure = 0.67, geometric mean = 0.59, index balanced accuracy= 0.35 and support =  3656. See Image Below 
--	![](https://github.com/mueeze/Group14/blob/Jared-Murray/ros.png)
+
 -	![](https://github.com/mueeze/Group14/blob/Jared-Murray/icr.png)
 
 ### Random Forest Classifier
