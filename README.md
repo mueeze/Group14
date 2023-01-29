@@ -4,14 +4,14 @@
 We, as a group have chosen the Cardiac Heart Disease, because it is more applicable to the Modules covered in the course. It is a complex dataset with values that needs to be trained, cleaned and split. My role in the group involves data exploration. See Table below which highlights my role and others in my group. My role is to perform Data Exploration on the dataset in Python. The table below is an agreed upon, roles and responsibilities for each group member in Group 14. 
 
 
- Second Week | Second Segment Project Deliverable: Due Feb 1st
+ Second Week | Second Segment Project Deliverable | Due Feb 1st
 
-|Deliverables:|	Responsible|	Date|
+|Deliverables:|	Roles and Responsibilities |	Date|
 | ----------------------- | ---------------------------------------- |--------------------------|
-|README|	Everyone will add their notes below and Amber will complete the final edit|	Amber: Friday Jan 20th|
-|ER Database	|Amber	|Friday Jan 20th|
-|Machine Learning model|	Amber, Josna, Halango	|Amber: Sat Jan 21st,Halango: Jan 21st and 22nd, Josna :Jan 22-23 |
-|Data Exploration	|Jared	|Saturday evening 21st, Sun 22nd and I can do Mon 23rd.|
+|README|	Everyone will add their notes below and Amber will complete the final edit|	Amber: Feb 1st|
+|ER Database	|Amber	|Feb 1st|
+|Machine Learning model|	Amber: Linear Regession, Josna, Halango, Jared: Random Oversampling with SMOTE, Random Forest Classifier, Support Vector Machine (SVM) vs Deep Learning Model (DL)	|Amber: Feb 1st,Halango: Feb 1st, Josna: Feb 1st, Jared: Feb 1st|
+|Data Exploration	|Jared	| Completed on Jan 23rd, |
 |Dashboard outline |	Mahbubur	|Saturday 21st. |
 
 Results
