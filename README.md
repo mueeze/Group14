@@ -14,20 +14,34 @@ Week 1: Due Jan 25th
 |Data Exploration	|Jared	|Saturday evening 21st, Sun 22nd and I can do Mon 23rd.|
 |Dashboard outline |	Mahbubur	|Saturday 21st. |
 
+Results
+Random Oversampling with SMOTE
+My approach to Random Oversampling with SMOTE addresses the imbalanced dataset value column, TenYearCHD in the dataframe, heart_disease_df, by oversampling the minority class. The simplest approach involves duplicating examples in the minority class, although these examples don’t add any new information to the model. Instead, new examples can be synthesized from the existing examples. This is a type of data augmentation for the minority class and is referred to as the Synthetic Minority Oversampling Technique, or SMOTE for short.
 
-## Process used in preparing data exploration in python
+A confusion matrix was generated for resamp_y and y_pred. I then, plotted the original dataset versus the Oversampled Minority Class and then a More Balanced Data. 
+•	The count of the resamp_y is 0: 3099, 1: 3099
+•	The balanced_accuracy_score for the y_pred is 0.5954051894889358
+•	The confusion matrix produces an array of 1960, 1139 and 246, 311. The datatype is an integer type. 
+•	The Imbalanced Classification Report Average/ Total: precision = 0.79, recall = 0.62, specificity = 0.57, f1-measure = 0.67, geometric mean = 0.59, index balanced accuracy= 0.35 and support =  3656
 
-I installed various libraries, that included the following: See file [heart_disease](https://github.com/mueeze/Group14/blob/Jared-Murray/heart_disease.ipynb)
+Random Forest Classifier
+The train_df dataframe pulls from updated_heart_disease.df using a random state of 525, a test size of 0.9 and shuffle = true. I initialized a randomforest classifier with n_jobs = 5, random_state=525, criterion='gini', n_estimators=100, verbose=False. This produces a result of RandomForestClassifier(n_jobs=5, random_state=525, verbose=False). A graph was plotted and to I got a ROC-AUC score = 0.618. 
 
-These libraries were installed to run split testing and predictive modelling in machine learning. 
 
-Checking and cleaning the credit card transaction data, I used the .loc method on the dataframe updated_heart_disease_df to obtain the credit card transactions obtain the Heart Disease Rates by age and gender. Which was indicated through Male and Female.
-See image below
-![](https://github.com/mueeze/Group14/blob/Jared-Murray/Heart%20Disease%20Rate%20Age%20and%20Gender%20Density%20Plot.png)
+Support Vector Machine (SVM)
+TenYearCHD column was used to generate the categorical variable, TenYearCHD_cat. The datatype used in the categorical variable was an integer type. To create a OneHotEncoder instance, I fit and transform the OneHotEncoder into a new dataframe, encode_heart_disease_df. The model was split, trained and fitted to create a StandardScaler instance. I then, created an SVM model with a linear kernel. This produced a SVM model accuracy = 0.848.
 
-I created a new heart disease dataframe, updated_heart_disease_df, at first as a csv file to save the cleaned data. It holds and renames the columns 'Male' to 'Gender'. Note, in order to clean the data I described the data, dtyped the data and dropped the null values, as well as the column 'education'. 
 
-To identify the glucose intake per age, I stored the values in the variable blood_sugar_levels and then plotted the glucose intake based on age. See Scatter plot below.
-![](https://github.com/mueeze/Group14/blob/Jared-Murray/Glucose%20intake%20per%20year.png)
 
-Please note that this project is a continuous project over the next 4 weeks. 
+Deep Learning Model (DL)
+A Deep Neural Net was created with hidden_nodes_layer1 = 10, hidden_nodes_layer2 = 5. The First and Second Hidden Layer used an activation = "relu". The Output Layer used an activation of "sigmoid". It was then compiled with an optimizer =”adam” and metrics = “accuracy”. The model was then trained with 50 epochs and a verbose = 1. This resulted in a Deep Learning Model with a Loss = 0.419 and an Accuracy = 0.834. 
+Conclusion
+In Conclusion, the most useful machine learning model in terms of producing predictions and accuracy based on the above testing was 
+1.	SVM model accuracy = 0.848
+2.	Deep Learning Model Loss = 0.419, Accuracy = 0.834 
+3.	Imbalanced Classification Report produces precision = 0.79 and index balanced accuracy = 0.35. Note, this had balanced_accuracy_score of 0.595 
+4.	Random Forest Classifier: roc_auc_score = 0.618 
+The best results with be obtain by using SVM
+
+
+
