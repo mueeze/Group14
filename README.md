@@ -45,5 +45,6 @@ In Conclusion, the most useful machine learning model in terms of producing pred
 2.	Deep Learning Model Loss = 0.419, Accuracy = 0.834 
 3.	Imbalanced Classification Report produces precision = 0.79 and index balanced accuracy = 0.35. Note, this had balanced_accuracy_score of 0.595 
 4.	Random Forest Classifier: roc_auc_score = 0.618 
-The best results with be obtain by using SVM
+
+The best results was obtain by using SVM
 
