@@ -45,8 +45,8 @@ In Conclusion, the most useful machine learning model in terms of producing pred
 The best results with be obtain by using SVM
 
 
-
-|_. First Header |_. Second Header     |
-| Content Cell   | Content Cell Line 1
-                   Content Cell Line 2 |
-| Content Cell   | Content Cell        |
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell Line 1
+              | Content Cell Line 2
+Content Cell  | Content Cell
