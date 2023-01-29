@@ -12,7 +12,7 @@ We, as a group have chosen the Cardiac Heart Disease, because it is more applica
 |ER Database	|Amber	|Feb 1st|
 |Machine Learning model|	Amber: Linear Regession, Josna, Halango, Jared: Random Oversampling with SMOTE, Random Forest Classifier, Support Vector Machine (SVM) vs Deep Learning Model (DL)	|Amber: Feb 1st,Halango: Feb 1st, Josna: Feb 1st, Jared: Feb 1st|
 |Data Exploration	|Jared	| Completed on Jan 23rd, |
-|Dashboard outline |	Mahbubur	|Saturday 21st. |
+|Dashboard outline |	Mahbubur	|Feb 1st. |
 
 ## Results
 ### Random Oversampling with SMOTE
