@@ -4,7 +4,7 @@
 We, as a group have chosen the Cardiac Heart Disease, because it is more applicable to the Modules covered in the course. It is a complex dataset with values that needs to be trained, cleaned and split. My role in the group involves data exploration. See Table below which highlights my role and others in my group. My role is to perform Data Exploration on the dataset in Python. The table below is an agreed upon, roles and responsibilities for each group member in Group 14. 
 
 
-Week 1: Due Jan 25th
+ Second Week | Second Segment Project Deliverable: Due Feb 1st
 
 |Deliverables:|	Responsible|	Date|
 | ----------------------- | ---------------------------------------- |--------------------------|
