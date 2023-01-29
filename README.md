@@ -23,12 +23,13 @@ A confusion matrix was generated for resamp_y and y_pred. I then, plotted the or
 -	The balanced_accuracy_score for the y_pred is 0.5954051894889358
 -	The confusion matrix produces an array of 1960, 1139 and 246, 311. The datatype is an integer type. 
 -	The Imbalanced Classification Report Average/ Total: precision = 0.79, recall = 0.62, specificity = 0.57, f1-measure = 0.67, geometric mean = 0.59, index balanced accuracy= 0.35 and support =  3656. See Image Below 
--	![]()
--	![]()
+-	![](https://github.com/mueeze/Group14/blob/Jared-Murray/ros.png)
+-	![](https://github.com/mueeze/Group14/blob/Jared-Murray/icr.png)
+
 ### Random Forest Classifier
 The train_df dataframe pulls from updated_heart_disease.df using a random state of 525, a test size of 0.9 and shuffle = true. I initialized a randomforest classifier with n_jobs = 5, random_state=525, criterion='gini', n_estimators=100, verbose=False. This produces a result of RandomForestClassifier(n_jobs=5, random_state=525, verbose=False). A graph was plotted and to I got a ROC-AUC score = 0.618. 
 See Image Below 
--	![]()
+-	![](https://github.com/mueeze/Group14/blob/Jared-Murray/RFC.png)
 
 ### Support Vector Machine (SVM)
 TenYearCHD column was used to generate the categorical variable, TenYearCHD_cat. The datatype used in the categorical variable was an integer type. To create a OneHotEncoder instance, I fit and transform the OneHotEncoder into a new dataframe, encode_heart_disease_df. The model was split, trained and fitted to create a StandardScaler instance. I then, created an SVM model with a linear kernel. This produced a SVM model accuracy = 0.848.
@@ -44,9 +45,3 @@ In Conclusion, the most useful machine learning model in terms of producing pred
 4.	Random Forest Classifier: roc_auc_score = 0.618 
 The best results with be obtain by using SVM
 
-
-First Header  | Second Header
-------------- | -------------
-Content Cell  | Content Cell Line 1
-              | Content Cell Line 2
-Content Cell  | Content Cell
