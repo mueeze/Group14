@@ -173,6 +173,5 @@ Second Week | Second Segment Project Deliverable | Due Feb 1st
 |Deliverables:|	Roles and Responsibilities |	Date|
 | ----------------------- | ---------------------------------------- |--------------------------|
 |README|	Everyone will add their notes below and Halango will complete the final edit|	Halango: Feb 1st|
-|ER Database	|Amber	|Feb 1st|
 |Machine Learning model|	Amber: Logistic Regession, Josna: Decision Tree/GBM Classifier/XGB Classifier/MLP Classifier, Jared: Random Oversampling with SMOTE, Random Forest Classifier, Support Vector Machine (SVM) vs Deep Learning Model (DL)	|Amber: Feb 1st,Halango: Feb 1st, Josna: Feb 1st, Jared: Feb 1st|
 |Dashboard outline |	Mahbubur	|Feb 1st. |
