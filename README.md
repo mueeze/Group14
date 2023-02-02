@@ -163,7 +163,7 @@ MLPClassifier stands for Multi-layer Perceptron classifier (MLP) which in the na
 
 ### ROC Curve
 
-AUC - ROC curve is a performance measurement for the classification problems at various threshold settings. ROC is a probability curve and AUC represents the degree or measure of separability. It tells how much the model is capable of distinguishing between classes. his metric considers the trade-offs between precision and recall. This is a ROC summary for all the machine learning models I did.
+AUC - ROC curve is a performance measurement for the classification problems at various threshold settings. ROC is a probability curve and AUC represents the degree or measure of separability. It tells how much the model is capable of distinguishing between classes. his metric considers the trade-offs between precision and recall. This is a ROC summary for all the machine learning models.
 
 ![ROC](https://user-images.githubusercontent.com/99384585/216223861-54e7f942-b09d-4463-b3d7-7fd251c39c2b.jpg)
 
