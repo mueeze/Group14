@@ -32,3 +32,4 @@ To identify the fraudulent transactions based on the amount, I stored the values
 ![](https://github.com/mueeze/Group14/blob/Jared-Murray/Amount%20of%20fraudulent%20transactions.png)
 
 Please note that this project is a continuous project over the next 4 weeks. 
+
