@@ -167,7 +167,7 @@ AUC - ROC curve is a performance measurement for the classification problems at 
 
 ![ROC](https://user-images.githubusercontent.com/99384585/216223861-54e7f942-b09d-4463-b3d7-7fd251c39c2b.jpg)
 
-Dashboard Visual
+## Dashboard Visual
 
 <img width="1920" alt="Screenshot 2023-02-01 at 10 43 15 PM" src="https://user-images.githubusercontent.com/99384585/216229459-ed3d4e44-e0e1-438a-bb78-a8f4a6c0f911.png">
 
