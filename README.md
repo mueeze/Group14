@@ -100,13 +100,13 @@ When the dataset was unbalanced accuracy result was 0.85, however when looking a
 ![Unbalanced](https://user-images.githubusercontent.com/99384585/216222006-dcd96efc-6431-4a67-89b7-e7aa5ed809a7.png)
 
 A Random Oversampling, aswell as a SMOTE was then done to try and balance the dataset. 
-	1. Random Oversampling results - Accuracy of 0.66 / F1 score of [0 --- 0.77 / 1 --- 0.35]
+1. Random Oversampling results - Accuracy of 0.66 / F1 score of [0 --- 0.77 / 1 --- 0.35]
 	
-	![Oversampling](https://user-images.githubusercontent.com/99384585/216222543-fee2435b-ba0e-46d0-8fa2-5c8fa258dee2.png)
+![Oversampling](https://user-images.githubusercontent.com/99384585/216222543-fee2435b-ba0e-46d0-8fa2-5c8fa258dee2.png)
 
-	2. SMOTE results - Accuracy of 0.62 / F1 Score of [0 --- 0.73 / 1 --- 0.31]
+2. SMOTE results - Accuracy of 0.62 / F1 Score of [0 --- 0.73 / 1 --- 0.31]
 	
-	![SMOTE](https://user-images.githubusercontent.com/99384585/216222849-bd3a2c60-98a6-49ae-94fd-1c92a3ed912e.png)
+![SMOTE](https://user-images.githubusercontent.com/99384585/216222849-bd3a2c60-98a6-49ae-94fd-1c92a3ed912e.png)
 
 
 ### Random Oversampling with SMOTE
