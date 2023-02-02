@@ -120,13 +120,15 @@ A confusion matrix was generated for resamp_y and y_pred. It was then, plotted w
 -	The confusion matrix produces an array of 1960, 1139 and 246, 311. The datatype is an integer type. 
 -	The Imbalanced Classification Report Average/ Total: precision = 0.79, recall = 0.62, specificity = 0.57, f1-measure = 0.67, geometric mean = 0.59, index balanced accuracy= 0.35 and support =  3656. See Image Below 
 
-	![](https://github.com/mueeze/Group14/blob/Jared-Murray/icr.png)
+
+![](https://github.com/mueeze/Group14/blob/Jared-Murray/icr.png)
 
 
 ### Random Forest Classifier
 The train_df dataframe pulls from updated_heart_disease.df using a random state of 525, a test size of 0.9 and shuffle = true. I initialized a randomforest classifier with n_jobs = 5, random_state=525, criterion='gini', n_estimators=100, verbose=False. This produces a result of RandomForestClassifier(n_jobs=5, random_state=525, verbose=False). A graph was plotted and to I got a ROC-AUC score = 0.618. 
 See Image Below 
-	![](https://github.com/mueeze/Group14/blob/Jared-Murray/RFC.png)
+	
+![](https://github.com/mueeze/Group14/blob/Jared-Murray/RFC.png)
 
 
 ### Support Vector Machine (SVM)
