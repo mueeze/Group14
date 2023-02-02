@@ -72,7 +72,7 @@ Week 1: Due Jan 25th
 |Data Exploration	|Jared	|Saturday evening 21st, Sun 22nd and I can do Mon 23rd.|
 |Dashboard outline |	Mahbubur	|Saturday 21st. |
 
-Week 2 
+# Week 2 
 
 Group14
 Overview
