@@ -184,4 +184,4 @@ Second Week | Second Segment Project Deliverable | Due Feb 1st
 |Dashboard |	Mahbubur	|Feb 1st. |
 
 # WEEK 3 : Final Group Project
-[ProwerPoint Presentation](https://github.com/mueeze/Group14/blob/main/Presentation%20Group%2014.pptx)
+[PowerPoint Presentation](https://github.com/mueeze/Group14/blob/main/Presentation%20Group%2014.pptx)
