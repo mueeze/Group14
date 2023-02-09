@@ -183,5 +183,5 @@ Second Week | Second Segment Project Deliverable | Due Feb 1st
 |Machine Learning model|	Amber: Logistic Regession, Josna: Decision Tree/GBM Classifier/XGB Classifier/MLP Classifier, Jared: Random Oversampling with SMOTE, Random Forest Classifier, Support Vector Machine (SVM) vs Deep Learning Model (DL)	|Amber: Feb 1st, Josna: Feb 1st, Jared: Feb 1st|
 |Dashboard |	Mahbubur	|Feb 1st. |
 
-# WEEk 3 : Final Group
-[ProwerPoint Presentation]()
+# WEEK 3 : Final Group Project
+[ProwerPoint Presentation](https://github.com/mueeze/Group14/blob/main/Presentation%20Group%2014.pptx)
